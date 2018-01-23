@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToTo</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/site.css">
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script src="Scripts/todo.js"></script>
+</head>
+<body>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-6">
+                    <div class="col-md-12"><h2>ToDo</h2></div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id="task-title" placeholder="Enter task Title">
+                    </div>
+                    <div class="col-md-4">
+                        <button id="add" class="btn btn-default">Add</button>
+                    </div>
+                    <table id="tasks" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Done</th>
+                                <th class="title">Title (clickable)</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <div class="col-md-6">
+                        <button id="save" class="btn btn-default">Save Changes</button>
+                    </div>
+                    <div class="col-md-6">
+                        <button id="clear-tasks" class="btn btn-default">Clear tasks</button>
+                    </div>
+                    <div id="saved-success" class="col-md-12" style="display: none">
+                        <div class="alert alert-success alert-dismissable">
+                            <a href="#" class="close" title="close">×</a>
+                            <strong>Success!</strong> Changes has been successfully saved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; My ToDo. Ivonin Eugene. Done for 4 hours 30 minutes.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
+

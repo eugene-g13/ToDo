@@ -1,0 +1,1 @@
+This small ToDo application was done in 4 hours 30 minutes.

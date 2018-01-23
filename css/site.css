@@ -1,0 +1,35 @@
+﻿.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table {
+    display: inline-block;
+    margin: 18px;
+}
+
+    table th.title {
+        min-width: 160px;
+    }
+
+    table th.title {
+        cursor: pointer;
+    }
+
+        table th.title:hover {
+            color: #0000EE;
+        }
+
+table > tbody > tr > td { 
+    vertical-align: middle !important;
+}
+
+    table input[type=checkbox] {
+        margin: 0;
+    }
+
+#saved-success > .alert {
+     display: inline-block; 
+     margin-top: 20px;
+}
+
